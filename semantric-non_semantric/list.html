@@ -44,8 +44,67 @@
 
         <br><br>
         <form action="/action.php">
-            <input type="text" placeholder="Enter your user name">
-            <input type="password" placeholder="Enter your password">
+            <div id="id1" class="group1">
+                
+                <input type="text" placeholder="Enter your user name">
+                <br><br>
+                <input type="password" placeholder="Enter your password">
+                <br><br>
+                </div>
+
+            <div id="id2" class="group2">
+                <label for="101">
+                <input type="radio" value="Class XII" name="class" id="101">Class XII
+                <br>
+                </label>
+                <label for="102">
+                <input type="radio" value="Class XI" name="class" id="102">Class XI
+                <br><br>
+            </label> 
+            </div>
+
+<!-- In the label tag inside for attribute give the value of id for click in the name and tick the box -->
+
+            <div id="id3" class="group3">
+                <h4>Select your subject</h3>
+                <label for="math">
+                    <input type="checkbox" value="math" name="Subject" id="math">Math
+                </label>
+                <br>
+                <label for="phy">
+                    <input type="checkbox" value="Phy" name="Subject" id="phy">Physics
+                </label>
+                <br>
+                <label for="chem">
+                    <input type="checkbox" value="chem" name="Subject" id="chem">Chemistry
+                </label>
+                <br>
+                <label for="bio">
+                    <input type="checkbox" value="bio" name="Subject" id="bio">Biology
+                </label>
+                <br>
+                <label for="bns">
+                    <input type="checkbox" value="bns" name="Subject" id="bns">BNS
+                </label>
+                <br>
+                <br>
+            </div>
+            
+            
+            <!-- If I click on the text of the radio button it still works
+                name is for choosing the options -->
+            <p>select  your city</p>
+            <select name="city" id="city" placeholder="Select your city"> 
+                <option value="Dhaka">Dhaka</option>
+                <option value="Natore">Natore</option>
+                <option value="Rajshahi">Rajshahi</option>
+                <option value="Bogura">Bogura</option>
+                <option value="Feni">Feni</option>
+            </select>
+            <br><br>
+            <textarea name="feedback" id="101" placeholder="Please give use your feedback"  rows="3" cols="50"></textarea>
+            <br>
+            <input type="submit" name="submit">
         </form>
 
         
