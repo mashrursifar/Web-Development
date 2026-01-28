@@ -1,3 +1,8 @@
+/* External Style */
+
+/* Never use inline and external css at the same time
+    external css use is prefarable */
+
 p{
-    color: red;
+    color: teal;
 }
