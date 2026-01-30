@@ -1,0 +1,17 @@
+p
+{
+    text-align: right;
+}
+h1
+{
+    text-align: center;
+    text-decoration: rebeccapurple wavy underline;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    background-color: antiquewhite;
+    font-weight: normal ;
+}
+
