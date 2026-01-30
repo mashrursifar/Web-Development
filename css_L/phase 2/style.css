@@ -16,3 +16,9 @@ a{
     font-weight: normal ;
 }
 
+#par
+{
+    text-align: left;
+    font-size: 25px;
+    line-height: 10px;
+}
