@@ -8,7 +8,7 @@ int main()
     double sales = 99.99;
     int dv = 23;
     double remainder = dv % count;
-    cout << remainder;
+    cout << remainder << endl;
     cout << count;
     std::cout << sales  << std:: endl;
     
