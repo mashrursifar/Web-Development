@@ -1,9 +1,16 @@
 #include<iostream>
 
-
+using namespace std;
 int main()
 {
-    std::cout << "Hello, Sifar!!" << std:: endl;
+
+    int count = 5;
+    double sales = 99.99;
+    int dv = 23;
+    double remainder = dv % count;
+    cout << remainder;
+    cout << count;
+    std::cout << sales  << std:: endl;
     
     return 0;
 }
