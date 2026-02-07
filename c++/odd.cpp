@@ -5,7 +5,10 @@ using namespace std;
 int main()
 {
     int i = 10;
+    cout <<"Enter a number: ";
+    cin >>i;
 
+    cout <<"Odd numbers: ";
     for(int x=0;x<i;x++)
     {
         
