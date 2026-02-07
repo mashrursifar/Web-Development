@@ -8,8 +8,10 @@ int main()
 
     for(int x=0;x<i;++x)
     {
-        cout <<"The number is: "<< x<<endl;
-
+        
+        if(x%2==1){
+            cout <<"The number is: "<< x<<endl;
+        }
     }
     return 0;
 }
