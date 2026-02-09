@@ -13,5 +13,13 @@ public class Test{
         boolean a = sc.nextBoolean();
 
         System.out.println(a);
+        int x=5;
+        int y = 5, z = 7;
+
+        int res = x*y/z;
+        System.out.println(res);
+
+        sc.close();
+
     }
 }
