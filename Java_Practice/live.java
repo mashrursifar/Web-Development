@@ -6,20 +6,21 @@ import java.util.Scanner; public class live {
         System.out.print("How many numbers you want to give: ");
 
         int n = sc.nextInt();
-        int sum_even=0, sum_odd=0;
+        int evenSum=0, oddSum=0;
+
         for(int i=0; i<n; i++)
         {
             System.out.print("Enter a value: ");
             int num = sc.nextInt();
             if(num%2==0)
             {
-                sum_even += num;
+                evenSum += num;
             }else{
-                sum_odd += num;
+                oddSum += num;
             }
         }
-        System.out.println("Sum of all even numbers: "+sum_even);
-        System.out.println("Sum of all odd numbers: "+sum_odd);
+        System.out.println("Sum of all even numbers: "+evenSum);
+        System.out.println("Sum of all odd numbers: "+oddSum);
 
 
         sc.close();
