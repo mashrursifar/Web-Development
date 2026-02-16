@@ -5,7 +5,8 @@ public class dimond {
         Scanner sc = new Scanner(System.in);
         // System.out.print("Enter a number: ");
 
-        int n = 5;
+        int n = 4;
+        int pr = 1;
 
         for(int i=0;i<n;i++)
         {
@@ -15,7 +16,7 @@ public class dimond {
                 {
                     System.out.print(" ");
                 }else{
-                    for(int k=0; k<j*2-1;k++)
+                    for(int k=0; k<pr*2-1;k++)
                     {
                         System.out.print("*");
                     }
@@ -23,7 +24,33 @@ public class dimond {
                     
                 }
                 
+                
             }
+            pr++;
+            System.out.println();
+        }
+
+        pr = n-1;
+        for(int i=0;i<n;i++)
+        {
+            for(int j=n; j>0;j--)
+            {
+                if(j<n-i)
+                {
+                    System.out.print(" ");
+                    for(int k=0; k<pr*2-1;k++)
+                    {
+                        System.out.print("*");
+                    }
+                    break;
+                }else{
+                    
+                    System.out.print(" ");
+                }
+                
+                
+            }
+            pr--;
             System.out.println();
         }
 
