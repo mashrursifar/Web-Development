@@ -1,6 +1,11 @@
+import java.util.Scanner;
+
 public class numberPyramid {
     public static void main(String[] args) {
-        int n=4;
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter a number: ");
+        int n= sc.nextInt();
         int num=1;
 
         for(int i=0;i<n;i++)
@@ -19,19 +24,13 @@ public class numberPyramid {
                     
                     
                 }
-                // if(num>1)
-                //     {
-                //     for(int k=0;k<i;k++)
-                //     {
-                //         System.out.print(num);
-                //     }
-                //     }
-                
+               
             }
             num++;
             System.out.println();
 
         }
+        sc.close();
     }
     
 }
