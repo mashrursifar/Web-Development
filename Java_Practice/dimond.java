@@ -3,10 +3,12 @@ import java.util.Scanner;
 public class dimond {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        // System.out.print("Enter a number: ");
+        System.out.print("Enter a number: ");
 
-        int n = 4;
+        int n = sc.nextInt();
         int pr = 1;
+
+        // Upper 
 
         for(int i=0;i<n;i++)
         {
@@ -30,6 +32,8 @@ public class dimond {
             System.out.println();
         }
 
+        // Lower
+        
         pr = n-1;
         for(int i=0;i<n;i++)
         {
