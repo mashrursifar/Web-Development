@@ -11,7 +11,12 @@ public class numberPyramid {
                 {System.out.print(" ");}
                 else
                 {
-                    System.out.print(num);
+                    for(int k=0;k<num*2-1;k++)
+                    {
+                        System.out.print(num);
+                    }
+                    break;
+                    
                     
                 }
                 // if(num>1)
