@@ -1,5 +1,5 @@
 public class floydtriangle {
-    static void floydtriangle(int n)
+    static void loydtriangle(int n)
     {   
         int count = 1;
         for(int i=0;i<n;i++)
@@ -14,6 +14,6 @@ public class floydtriangle {
         }
     }
     public static void main(String[] args) {
-        floydtriangle(7);
+        loydtriangle(7);
     }
 }
