@@ -24,6 +24,7 @@ public class basicArray {
         {
             System.out.print("Mrks = "+marks[i]+" ");
         }
+        sc.close();
     }
     
 }
