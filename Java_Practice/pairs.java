@@ -3,7 +3,7 @@ public class pairs {
     {
         for(int i=0;i<num.length;i++)
         {
-            for(int j=i;j<num.length;j++)
+            for(int j=i+1;j<num.length;j++)
             {
                 System.out.print("("+num[i]+","+num[j]+"),");
 
