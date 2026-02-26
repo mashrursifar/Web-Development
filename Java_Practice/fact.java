@@ -1,6 +1,6 @@
 public class fact {
     
-    public static int fact(int n)
+    public static int factorial(int n)
     {
         int res=1;
         
@@ -15,6 +15,6 @@ public class fact {
     }
 
     public static void main(String[] args) {
-        System.out.println("Factorial = "+fact(5));
+        System.out.println("Factorial = "+factorial(5));
     }
 }
