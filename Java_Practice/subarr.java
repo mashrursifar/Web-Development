@@ -25,7 +25,7 @@ public class subarr {
         System.out.println("Minimum sum from the sub array= "+min);
     }
     public static void main(String[] args) {
-        int arr[] = {10,13,5,-3,7,11};
+        int arr[] = {7,-2,5,4,-1,4,};
 
         subArray(arr);
     }
